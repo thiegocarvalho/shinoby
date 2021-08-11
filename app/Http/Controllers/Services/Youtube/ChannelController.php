@@ -63,6 +63,7 @@ class ChannelController extends Controller
         $this->setLastFeed($channel->videos);
     }
 
+    
     /**
      * @param $channel
      * @param string $platform
